@@ -1,3 +1,14 @@
+### Machine Data Structure
+
+    {
+        "name": <string>,
+        "pipeline_id": <string>,
+        "platform_id": <string>,
+        "platform_type_id": <string>
+    }
+
+### API
+
 #### /machines
 
 **GET**
