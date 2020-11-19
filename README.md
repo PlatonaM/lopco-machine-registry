@@ -60,3 +60,12 @@ _Add / Update a machine._
     -d @machine_data.json \
     -H 'Content-Type: application/json' \
     -X PUT http://<host>/machines/34z4u5i75iu53i
+
+
+**DELETE**
+
+_Remove a machine_
+
+    # Example
+
+    curl -X DELETE http://<host>/machines/34z4u5i75iu53i
